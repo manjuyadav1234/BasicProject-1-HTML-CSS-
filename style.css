@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #1d1e4c;
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+    padding: 20px; /* Added padding for better readability */
+  }
+  
+  .Container {
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+    padding: 20px;
+  }
+  
+  .Content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .top-section h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #1d1e4c;
+  }
+  
+  .top-section h4 {
+    text-align: end;
+    font-size: 30px;
+  }
+  
+  .image {
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image img {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .about {
+    margin-top: 50px;
+  }
+  
+  .about h2 {
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  .about p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+  }
+  
+  .biography {
+    margin: 50px 0;
+  }
+  
+  .biography h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .biography ul {
+    margin-left: 50px;
+  }
+  
+  .biography li {
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+  }
+  
+  footer {
+    margin: 50px 0;
+  }
+  
+  footer p {
+    text-align: end;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+  }
+  
+  footer a {
+    color: #1d1e4c;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .top-section {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .top-section h4 {
+      text-align: center;
+      font-size: 25px;
+    }
+  
+    .top-section h1 {
+      font-size: 40px;
+    }
+  
+    .image img {
+      width: 200px;
+      height: 150px;
+    }
+  
+    .about h2 {
+      font-size: 50px;
+    }
+  
+    .about p,
+    .biography li {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+    footer p {
+      font-size: 14px;
+    }
+  }
+  
